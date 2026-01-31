@@ -1,8 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0xp;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body {
-    margin: 0;
-    padding: 0%;
+    background-color: #888787;
+    color(srgb rgba(255, 0, 0, 0.664) rgb(91, 216, 91) rgb(93, 93, 141));
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 2rem;
+    background-color: #331F19;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 h1 {
-    border: 2px dotted black
+    color:#331F19;
 }
